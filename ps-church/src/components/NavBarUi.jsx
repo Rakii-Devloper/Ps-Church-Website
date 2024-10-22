@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const NavBarUi = ({ toggleSidebar }) => {
   return (
-    <nav className="bg-transparent text-black shadow-lg h-16 transition-all duration-300 ease-in-out">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
+<nav className="bg-transparent text-black shadow-lg h-16 transition-all duration-300 ease-in-out flex-shrink-0">
+<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
         {/* Logo */}
         <div className="flex-shrink-0">
           <Link to="/" className="text-3xl font-cursive font-bold tracking-wider hover:text-blue-400 transition-all duration-300 ease-in-out">
@@ -29,6 +29,10 @@ const NavBarUi = ({ toggleSidebar }) => {
           <Link to="/about" className="text-lg font-cursive hover:text-blue-400 transition-all duration-300 ease-in-out transform hover:scale-110">About</Link>
           <Link to="/contact" className="text-lg font-cursive hover:text-blue-400 transition-all duration-300 ease-in-out transform hover:scale-110">Contact</Link>
           <Link to="/prayer-request" className="text-lg font-cursive hover:text-blue-400 transition-all duration-300 ease-in-out transform hover:scale-110">Prayer Request</Link>
+          <Link to="/our-belief" className="text-lg font-cursive hover:text-blue-400 transition-all duration-300 ease-in-out transform hover:scale-110">our Belief</Link>
+          <Link to="/video" className="text-lg font-cursive hover:text-blue-400 transition-all duration-300 ease-in-out transform hover:scale-110">Video</Link>
+          <Link to="/events" className="text-lg font-cursive hover:text-blue-400 transition-all duration-300 ease-in-out transform hover:scale-110">Event</Link>
+
         </div>
       </div>
     </nav>

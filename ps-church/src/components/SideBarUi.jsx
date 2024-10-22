@@ -11,6 +11,10 @@ const SideBarUi = ({ isOpen, toggleSidebar }) => {
         <Link to="/sermon" className="block text-white hover:bg-gray-700 p-2 rounded transition-all duration-300" onClick={toggleSidebar}>Sermon</Link>
         <Link to="/about" className="block text-white hover:bg-gray-700 p-2 rounded transition-all duration-300" onClick={toggleSidebar}>About</Link>
         <Link to="/contact" className="block text-white hover:bg-gray-700 p-2 rounded transition-all duration-300" onClick={toggleSidebar}>Contact</Link>
+        <Link to="video" className="block text-white hover:bg-gray-700 p-2 rounded transition-all duration-300" onClick={toggleSidebar}>Video</Link>
+        <Link to="/our-belief" className="block text-white hover:bg-gray-700 p-2 rounded transition-all duration-300" onClick={toggleSidebar}>Our Belief</Link>
+        <Link to="/events" className="block text-white hover:bg-gray-700 p-2 rounded transition-all duration-300" onClick={toggleSidebar}>Events </Link>
+        {/* <Link to="/contact" className="block text-white hover:bg-gray-700 p-2 rounded transition-all duration-300" onClick={toggleSidebar}>Contact</Link> */}
       </div>
     </aside>
   );
